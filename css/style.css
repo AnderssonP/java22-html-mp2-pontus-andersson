@@ -24,15 +24,16 @@ body, html {
 
 .meny{
     display: flex;
-    justify-content: center;
-    color: black;
+    flex-direction: column;
+    border: 2px red solid;
 }
 
 .meny div{
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    height: 100vh;
+    border: 2px blue solid;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 footer{

@@ -25,13 +25,11 @@ body, html {
 .meny{
     display: flex;
     flex-direction: column;
+    border: 2px red solid;
 }
 
 .meny div{
-    display: flex;
-    flex-flow: column;
-    margin-left: 30%;
-    margin-right: 30%;
+   text-align: center;
 }
 
 footer{
